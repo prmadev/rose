@@ -10,8 +10,6 @@
 
 > A little CLI application to help access Rose-Pine colorscheme easily.
 
-> ![cli](./assets/cli.png)
-
 ## Install
 
 ```sh
@@ -20,8 +18,24 @@ go install github.com/amirography/rose@latest
 
 ## Usage
 
+![cli](./assets/cli.png)
+
+Print out the color 'pine', of the 'dawm' swatch:
+
 ```sh
-rose pr -s dawn -c pine
+rose print -s dawn -c pine
+```
+
+Print out every color of the default colorscheme:
+
+```sh
+rose print -a
+```
+
+Copy the color code of color `foam` from default swatch:
+
+```sh
+rose cp -c foam
 ```
 
 ## Author
