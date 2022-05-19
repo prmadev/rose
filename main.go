@@ -65,7 +65,7 @@ func main() {
 
 	app := &cli.App{
 		Name:  "rose",
-		Usage: "Your friendly rosepine helper.",
+		Usage: "Your friendly Rosé Pine helper.",
 		Commands: []*cli.Command{
 			{
 				Name:    "print",
