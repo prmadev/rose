@@ -1,8 +1,9 @@
 package match_test
 
 import (
-	"rose/match"
 	"testing"
+
+	"github.com/amirography/rose/match"
 )
 
 func TestMatch(t *testing.T) {
