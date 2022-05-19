@@ -92,10 +92,10 @@ func main() {
 func printer(c *cli.Context) error {
 	if c.Bool("all") {
 		swatch := match.List(c.String("swatch"))
-		for n, ing := range swatch {
+		for _, ing := range swatch {
 			col := ing.Hex
 			block := fmt.Sprint(lipgloss.NewStyle().Background(lipgloss.Color(col)).PaddingRight(2).Render(""))
-			code := fmt.Sprint(lipgloss.NewStyle().Bold(true).Italic(true).Render(block + "\t" + col + "\t\t" + n))
+			code := fmt.Sprint(lipgloss.NewStyle().Bold(true).Italic(true).Render(block + "\t" + col + "\t\t" + ing.Name))
 			fmt.Println(code)
 		}
 		return nil

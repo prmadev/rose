@@ -1,147 +1,192 @@
 package match
 
 var rp = Swatch{
-	"rose": {
-		Hex: "#ebbcba",
+	{
+		Name: "rose",
+		Hex:  "#ebbcba",
 	},
-	"base": {
-		Hex: "#191724",
+	{
+		Name: "pine",
+		Hex:  "#31748f",
 	},
-	"overlay": {
-		Hex: "#26233a",
+	{
+		Name: "love",
+		Hex:  "#eb6f92",
 	},
-	"text": {
-		Hex: "#e0def4",
+	{
+		Name: "foam",
+		Hex:  "#9ccfd8",
 	},
-	"surface": {
-		Hex: "#1f1d2e",
+	{
+		Name: "gold",
+		Hex:  "#f6c177",
 	},
-	"muted": {
-		Hex: "#6e6a86",
+	{
+		Name: "iris",
+		Hex:  "#c4a7e7",
 	},
-	"subtle": {
-		Hex: "#908caa",
+
+	{
+		Name: "base",
+		Hex:  "#191724",
 	},
-	"love": {
-		Hex: "#eb6f92",
+	{
+		Name: "surface",
+		Hex:  "#1f1d2e",
 	},
-	"gold": {
-		Hex: "#f6c177",
+	{
+		Name: "overlay",
+		Hex:  "#26233a",
 	},
-	"iris": {
-		Hex: "#c4a7e7",
+	{
+		Name: "text",
+		Hex:  "#e0def4",
 	},
-	"foam": {
-		Hex: "#9ccfd8",
+	{
+		Name: "subtle",
+		Hex:  "#908caa",
 	},
-	"pine": {
-		Hex: "#31748f",
+
+	{
+		Name: "muted",
+		Hex:  "#6e6a86",
 	},
-	"highlight low": {
-		Hex: "#21202e",
+	{
+		Name: "highlight low",
+		Hex:  "#21202e",
 	},
-	"highlight med": {
-		Hex: "#403d52",
+	{
+		Name: "highlight med",
+		Hex:  "#403d52",
 	},
-	"highlight high": {
-		Hex: "#524f67",
+	{
+		Name: "highlight high",
+		Hex:  "#524f67",
 	},
 }
 var moon = Swatch{
-	"rose": {
-		Hex: "#ea9a97",
+	{
+		Name: "rose",
+		Hex:  "#ea9a97",
 	},
-	"base": {
-		Hex: "#232136",
+	{
+		Name: "base",
+		Hex:  "#232136",
 	},
-	"overlay":{
-		Hex: "#393552",
+	{
+		Name: "overlay",
+		Hex:  "#393552",
 	},
-	"text": {
-		Hex: "#e0def4",
+	{
+		Name: "text",
+		Hex:  "#e0def4",
 	},
-	"surface":{
-		Hex: "#2a273f",
+	{
+		Name: "surface",
+		Hex:  "#2a273f",
 	},
-	"muted": {
-		Hex: "#6e6a86",
+	{
+		Name: "muted",
+		Hex:  "#6e6a86",
 	},
-	"subtle": {
-		Hex: "#908caa",
+	{
+		Name: "subtle",
+		Hex:  "#908caa",
 	},
-	"love": {
-		Hex: "#eb6f92",
+	{
+		Name: "love",
+		Hex:  "#eb6f92",
 	},
-	"gold": {
-		Hex: "#f6c177",
+	{
+		Name: "gold",
+		Hex:  "#f6c177",
 	},
-	"iris": {
-		Hex: "#c4a7e7",
+	{
+		Name: "iris",
+		Hex:  "#c4a7e7",
 	},
-	"foam": {
-		Hex: "#9ccfd8",
+	{
+		Name: "foam",
+		Hex:  "#9ccfd8",
 	},
-	"pine": {
-		Hex: "#3e8fb0",
+	{
+		Name: "pine",
+		Hex:  "#3e8fb0",
 	},
-	"highlight low": {
-		Hex: "#2a283e",
+	{
+		Name: "highlight low",
+		Hex:  "#2a283e",
 	},
-	"highlight med": {
-		Hex: "#44415a",
+	{
+		Name: "highlight med",
+		Hex:  "#44415a",
 	},
-	"highlight high": {
-		Hex: "#56526e",
+	{
+		Name: "highlight high",
+		Hex:  "#56526e",
 	},
-
 }
 var dawn = Swatch{
-	"rose": {
-		Hex: "#ea9a97",
+	{
+		Name: "rose",
+		Hex:  "#ea9a97",
 	},
-	"base": {
-		Hex: "#232136",
+	{
+		Name: "base",
+		Hex:  "#232136",
 	},
-	"overlay": {
-		Hex: "#393552",
+	{
+		Name: "overlay",
+		Hex:  "#393552",
 	},
-	"text": {
-		Hex: "#faf4ed",
+	{
+		Name: "text",
+		Hex:  "#faf4ed",
 	},
-	"surface":{
-		Hex: "#fffaf3",
+	{
+		Name: "surface",
+		Hex:  "#fffaf3",
 	},
-	"muted": {
-		Hex: "#9893a5",
+	{
+		Name: "muted",
+		Hex:  "#9893a5",
 	},
-	"subtle": {
-		Hex: "#797593",
+	{
+		Name: "subtle",
+		Hex:  "#797593",
 	},
-	"love": {
-		Hex: "#b4637a",
+	{
+		Name: "love",
+		Hex:  "#b4637a",
 	},
-	"gold": {
-		Hex: "#ea9d34",
+	{
+		Name: "gold",
+		Hex:  "#ea9d34",
 	},
-	"iris": {
-		Hex: "#907aa9",
+	{
+		Name: "iris",
+		Hex:  "#907aa9",
 	},
-	"foam": {
-		Hex: "#56949f",
+	{
+		Name: "foam",
+		Hex:  "#56949f",
 	},
-	"pine": {
-		Hex: "#286983",
+	{
+		Name: "pine",
+		Hex:  "#286983",
 	},
-	"highlight low": {
-		Hex: "#f4ede8",
+	{
+		Name: "highlight low",
+		Hex:  "#f4ede8",
 	},
-	"highlight med": {
-		Hex: "#dfdad9",
+	{
+		Name: "highlight med",
+		Hex:  "#dfdad9",
 	},
-	"highlight high": {
-		Hex: "#cecacd",
+	{
+		Name: "highlight high",
+		Hex:  "#cecacd",
 	},
-
 }
 var rosePine = Palette{
 	"rp":   rp,
