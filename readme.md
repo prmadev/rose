@@ -1,14 +1,13 @@
-<h1 align="center">Welcome to rose 👋</h1>
+<h1 align="center">rose for Rosé Pine</h1>
 <p>
-  <a href="https://www.npmjs.com/package/rose" target="_blank">
-    <img alt="Version" src="https://img.shields.io/npm/v/rose.svg">
-  </a>
-  <a href="https://twitter.com/amirography" target="_blank">
+  <a align="center" href="https://twitter.com/amirography" target="_blank">
     <img alt="Twitter: amirography" src="https://img.shields.io/twitter/follow/amirography.svg?style=social" />
   </a>
 </p>
 
-> A little CLI application to help access Rose-Pine colorscheme easily.
+<p align="center">
+A little CLI application to help access Rosé Pine colorscheme easily.
+</p>
 
 ## Install
 
@@ -47,14 +46,8 @@ rose cp -c foam
 - Github: [@amirography](https://github.com/amirography)
 - LinkedIn: [@amirography](https://linkedin.com/in/amirography)
 
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
----
-
 ## Thanks to
 
-Wonderful (Rose-Pine)[https://github.com/rose-pine] creators.
+- Wonderful (Rose-Pine)[https://github.com/rose-pine] creators.
 
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+- This readme was generated with love by [readme-md-generator](https://github.com/kefranabg/readme-md-generator).
