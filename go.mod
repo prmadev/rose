@@ -1,4 +1,4 @@
-module rose
+module github.com/amirography/rose
 
 go 1.18
 

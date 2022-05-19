@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"log"
 	"os"
-	"rose/match"
 
+	"github.com/amirography/rose/match"
 	"github.com/atotto/clipboard"
 	"github.com/charmbracelet/lipgloss"
 	"github.com/urfave/cli/v2"
