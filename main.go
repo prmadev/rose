@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/amirography/rose/match"
+	"github.com/amirography/rose/internal"
 	"github.com/atotto/clipboard"
 	"github.com/charmbracelet/lipgloss"
 	"github.com/urfave/cli/v2"
@@ -93,7 +93,7 @@ func main() {
 
 func printer(c *cli.Context) error {
 	if c.Bool("all") {
-		swatch := match.List(c.String("swatch"))
+		swatch := internal.List(c.String("swatch"))
 		for _, ing := range swatch {
 			col := ing.Hex
 			block := fmt.Sprint(lipgloss.NewStyle().Background(lipgloss.Color(col)).PaddingRight(2).Render(""))
@@ -104,7 +104,7 @@ func printer(c *cli.Context) error {
 
 	}
 
-	col := match.Get(c.String("colorname"), c.String("swatch"))
+	col := internal.Get(c.String("colorname"), c.String("swatch"))
 	block := fmt.Sprint(lipgloss.NewStyle().Background(lipgloss.Color(col)).PaddingRight(2).Render(""))
 	code := fmt.Sprint(lipgloss.NewStyle().Bold(true).Italic(true).Render(block + " " + col))
 	fmt.Println(code)
@@ -112,7 +112,7 @@ func printer(c *cli.Context) error {
 }
 
 func cp(c *cli.Context) error {
-	col := match.Get(c.String("colorname"), c.String("swatch"))
+	col := internal.Get(c.String("colorname"), c.String("swatch"))
 	err := clipboard.WriteAll(col)
 	if err != nil {
 		return err

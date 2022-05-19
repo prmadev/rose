@@ -1,12 +1,12 @@
-package match_test
+package internal_test
 
 import (
 	"testing"
 
-	"github.com/amirography/rose/match"
+	"github.com/amirography/rose/internal"
 )
 
-func TestMatch(t *testing.T) {
+func TestInternal(t *testing.T) {
 	t.Parallel()
 	type testCase struct {
 		fn               func(string, string) string
@@ -14,8 +14,8 @@ func TestMatch(t *testing.T) {
 		want             string
 	}
 	cases := []testCase{
-		{fn: match.Get, name: "rose", swatchName: "rp", want: "#ebbcba"},
-		{fn: match.Get, name: "rse", swatchName: "rp", want: ""},
+		{fn: internal.Get, name: "rose", swatchName: "rp", want: "#ebbcba"},
+		{fn: internal.Get, name: "rse", swatchName: "rp", want: ""},
 	}
 
 	for _, tc := range cases {

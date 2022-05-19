@@ -1,5 +1,5 @@
-// Match package ﳑ find the color code required.
-package match
+// internal package ﳑ find the color code required.
+package internal 
 
 // Ingredient struct ﳑ holds the different values of a color.
 // it is not meant to be used directly, but rather as part of a swatch.
