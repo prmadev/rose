@@ -78,6 +78,8 @@ var App = &cli.App{
 			Action:  cp,
 		},
 	},
+	Action: printall,
+
 }
 
 func printer(c *cli.Context) error {
@@ -97,6 +99,16 @@ func printer(c *cli.Context) error {
 	block := fmt.Sprint(lipgloss.NewStyle().Background(lipgloss.Color(col)).PaddingRight(2).Render(""))
 	code := fmt.Sprint(lipgloss.NewStyle().Bold(true).Italic(true).Render(block + " " + col))
 	fmt.Println(code)
+	return nil
+}
+func printall(c *cli.Context) error {
+	swatch := internal.List("default")
+	for _, ing := range swatch {
+		col := ing.Hex
+		block := fmt.Sprint(lipgloss.NewStyle().Background(lipgloss.Color(col)).PaddingRight(2).Render(""))
+		code := fmt.Sprint(lipgloss.NewStyle().Bold(true).Italic(true).Render(block + "\t" + col + "\t\t" + ing.Name))
+		fmt.Println(code)
+	}
 	return nil
 }
 
