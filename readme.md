@@ -53,6 +53,6 @@ rose cp -c foam
 
 ## Thanks to
 
-- Wonderful (Rose-Pine)[https://github.com/rose-pine] creators.
+- Wonderful [Rose-Pine](https://github.com/rose-pine) creators.
 
 - This readme was generated with love by [readme-md-generator](https://github.com/kefranabg/readme-md-generator).
