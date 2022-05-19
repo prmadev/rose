@@ -36,6 +36,7 @@ var printFlags []cli.Flag = []cli.Flag{
 		Usage:   "Palette to use.",
 	},
 }
+
 var cpFlags []cli.Flag = []cli.Flag{
 	&cli.StringFlag{
 		Name:     "colorname",
@@ -89,6 +90,7 @@ func main() {
 	}
 
 }
+
 func printer(c *cli.Context) error {
 	if c.Bool("all") {
 		swatch := match.List(c.String("swatch"))
@@ -108,6 +110,7 @@ func printer(c *cli.Context) error {
 	fmt.Println(code)
 	return nil
 }
+
 func cp(c *cli.Context) error {
 	col := match.Get(c.String("colorname"), c.String("swatch"))
 	err := clipboard.WriteAll(col)
@@ -116,14 +119,3 @@ func cp(c *cli.Context) error {
 	}
 	return nil
 }
-
-// func printAll(c *cli.Context) error {
-// 	swatch := match.List(c.String("swatch"))
-// 	for n, ing := range swatch {
-// 		col := ing.Hex
-// 		block := fmt.Sprint(lipgloss.NewStyle().Background(lipgloss.Color(col)).PaddingRight(2).Render(""))
-// 		code := fmt.Sprint(lipgloss.NewStyle().Bold(true).Italic(true).Render(block + " " + col + " " + n))
-// 		fmt.Println(code)
-// 	}
-// 	return nil
-// }

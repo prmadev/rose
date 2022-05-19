@@ -193,7 +193,7 @@ var dawn = Swatch{
 	},
 }
 var rosePine = Palette{
-	"rp":   rp,
+	"default":   rp,
 	"moon": moon,
 	"dawn": dawn,
 }
