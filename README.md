@@ -8,7 +8,9 @@
   </a>
 </p>
 
-> a little cli application to help access Rose Pine palettes' easily.
+> A little CLI application to help access Rose-Pine colorscheme easily.
+
+> ![cli](./assets/cli.png)
 
 ## Install
 
@@ -26,14 +28,19 @@ rose pr -s dawn -c pine
 
 👤 **Amir Alesheikh**
 
-* Website: amirography.com
-* Twitter: [@amirography](https://twitter.com/amirography)
-* Github: [@amirography](https://github.com/amirography)
-* LinkedIn: [@amirography](https://linkedin.com/in/amirography)
+- Website: amirography.com
+- Twitter: [@amirography](https://twitter.com/amirography)
+- Github: [@amirography](https://github.com/amirography)
+- LinkedIn: [@amirography](https://linkedin.com/in/amirography)
 
 ## Show your support
 
 Give a ⭐️ if this project helped you!
 
-***
+---
+
+## Thanks to
+
+Wonderful (Rose-Pine)[https://github.com/rose-pine] creators.
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
