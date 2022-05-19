@@ -70,8 +70,33 @@ var moon = Swatch{
 		Hex:  "#ea9a97",
 	},
 	{
+		Name: "pine",
+		Hex:  "#3e8fb0",
+	},
+	{
+		Name: "love",
+		Hex:  "#eb6f92",
+	},
+	{
+		Name: "foam",
+		Hex:  "#9ccfd8",
+	},
+	{
+		Name: "gold",
+		Hex:  "#f6c177",
+	},
+	{
+		Name: "iris",
+		Hex:  "#c4a7e7",
+	},
+
+	{
 		Name: "base",
 		Hex:  "#232136",
+	},
+	{
+		Name: "surface",
+		Hex:  "#2a273f",
 	},
 	{
 		Name: "overlay",
@@ -82,36 +107,13 @@ var moon = Swatch{
 		Hex:  "#e0def4",
 	},
 	{
-		Name: "surface",
-		Hex:  "#2a273f",
-	},
-	{
-		Name: "muted",
-		Hex:  "#6e6a86",
-	},
-	{
 		Name: "subtle",
 		Hex:  "#908caa",
 	},
+
 	{
-		Name: "love",
-		Hex:  "#eb6f92",
-	},
-	{
-		Name: "gold",
-		Hex:  "#f6c177",
-	},
-	{
-		Name: "iris",
-		Hex:  "#c4a7e7",
-	},
-	{
-		Name: "foam",
-		Hex:  "#9ccfd8",
-	},
-	{
-		Name: "pine",
-		Hex:  "#3e8fb0",
+		Name: "muted",
+		Hex:  "#6e6a86",
 	},
 	{
 		Name: "highlight low",
@@ -129,35 +131,19 @@ var moon = Swatch{
 var dawn = Swatch{
 	{
 		Name: "rose",
-		Hex:  "#ea9a97",
+		Hex:  "#d7827e",
 	},
 	{
-		Name: "base",
-		Hex:  "#232136",
-	},
-	{
-		Name: "overlay",
-		Hex:  "#393552",
-	},
-	{
-		Name: "text",
-		Hex:  "#faf4ed",
-	},
-	{
-		Name: "surface",
-		Hex:  "#fffaf3",
-	},
-	{
-		Name: "muted",
-		Hex:  "#9893a5",
-	},
-	{
-		Name: "subtle",
-		Hex:  "#797593",
+		Name: "pine",
+		Hex:  "#286983",
 	},
 	{
 		Name: "love",
 		Hex:  "#b4637a",
+	},
+	{
+		Name: "foam",
+		Hex:  "#56949f",
 	},
 	{
 		Name: "gold",
@@ -167,13 +153,31 @@ var dawn = Swatch{
 		Name: "iris",
 		Hex:  "#907aa9",
 	},
+
 	{
-		Name: "foam",
-		Hex:  "#56949f",
+		Name: "base",
+		Hex:  "#faf4ed",
 	},
 	{
-		Name: "pine",
-		Hex:  "#286983",
+		Name: "surface",
+		Hex:  "#fffaf3",
+	},
+	{
+		Name: "overlay",
+		Hex:  "#f2e9e1",
+	},
+	{
+		Name: "text",
+		Hex:  "#575279",
+	},
+	{
+		Name: "subtle",
+		Hex:  "#797593",
+	},
+
+	{
+		Name: "muted",
+		Hex:  "#9893a5",
 	},
 	{
 		Name: "highlight low",
